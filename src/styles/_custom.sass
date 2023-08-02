@@ -2,14 +2,25 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 17%
+    right: 80%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 17%
+    right: 17%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    width: 20%
+    top: 75%
+    right: 17%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    width: 20%
+    top: 75%
+    right: 80%
 
 @keyframes float1
   0%
@@ -17,3 +28,209 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-principal__img
+  width: 440px
+
+.banner-principal .tarjeta
+  @media screen and ( max-width: $bp-max-lg )
+    background-image: url(../assets/curso/portada/fondo-banner-principal2.png) !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
+.tarjeta.tarjeta--azul
+  background-image: url(../assets/curso/tema1/img3.svg)
+  background-repeat: no-repeat
+  background-size: cover
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #D40A32
+.slyder-a__bullets__item
+  background-color: #DF949A
+.slyder-a__bullets__item--active
+  background-color: #D40A32
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: -10px
+
+.tarjeta.color-primario
+  p, b
+    color: $color-sistema-texto !important
+
+.tarjeta--gris
+  background-image: url(../assets/curso/tema2/img2.svg)
+  background-repeat: no-repeat
+  background-size: cover
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #D40A32
+
+.linea-tiempo-c__header__btn i, .linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i, .pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+  color: white
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:before, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:after
+  background-color: #D40A32
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container:before
+  background-color: #D40A32
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot
+  border-color: #D40A32
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  border-color: #D40A32
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after
+  background-color: #D40A32
+
+.tarjeta.color-acento-botones
+  background-color: #FFF9DC
+  p,b,li
+    color: $color-sistema-texto
+
+.tarjeta.color-acento-botones1
+  background-color: #F1EBDD
+  width: 100%
+
+.tarjeta--azul1
+  background-color: #FFF9DC
+.tarjeta--azul1.acordion__activo
+  background-color: #EFEDE2
+
+.acordion__accion__btn--b
+  background-color: #D40A32
+
+.acordion__accion__btn--a i, .acordion__accion__btn--b i
+  color: white
+
+.tarjeta.color-acento-primario
+  background-color: #FDD615
+
+.bloque-texto-e.color-secundario
+  background-color: #F4F2F2
+
+.bloque-texto-e i
+  color: #FDD615
+
+.tarjeta.color-terciario
+  background-color: #2B2B2D
+
+.bloque-texto-d
+  border-top: 1px solid #FDD615
+
+.bloque-texto-d.color-secundario:before
+  background-color: #FFFCEF
+
+.bloque-texto-d i
+  color: #FDD615
+
+.img-infografica__card, .img-infografica-b__card
+  width: 500px
+
+.bg
+  &-c1
+    background-color: #F6F6F6
+    border-radius: 25px
+  &-c2
+    background-image: url(../assets/curso/tema1/img1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+  &-c3
+    background-color: #F1EBDD
+    border-radius: 25px
+  &-c4
+    background-color: #FAE5B4
+    border-radius: 25px
+  &-c5
+    background-image: url(../assets/curso/tema2/img1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+    margin-bottom: -48px
+  &-c6
+    background-image: url(../assets/curso/tema3/img1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+    background-position-y: 60px
+    margin-bottom: -48px
+  &-c7
+    background-color: #DFDFDF
+    border-radius: 25px
+  &-c8
+    background-color: #F1EBDD
+  &-c9
+    background-image: url(../assets/curso/tema5/img1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position-y: 60px
+  &-c10
+    background-image: url(../assets/curso/tema6/img1.svg)
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: $bp-max-lg )
+      background-image: none
+  &-c11
+    position: relative
+    left: -2%
+    background-color: #2B2B2D
+    border-top-right-radius: 15px
+    border-bottom-right-radius: 15px
+    h3
+      color: white
+    @media screen and ( max-width: $bp-max-lg )
+      left: -3%
+    @media screen and ( max-width: $bp-max-sm )
+      left: -4%
+  &-c12
+    background-image: url(../assets/curso/tema6/img16.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+  &-c13
+    background-color: #D9D9D9
+    border-radius: 15px
+  &-c14
+    background-image: url(../assets/curso/tema7/img2.png)
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 25px
+  &-c15
+    background-color: #FEF1AD
+  &-c16
+    background-image: url(../assets/curso/tema10/img1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+  &-c17
+    background-color: #F4F2F2
+  &-c18
+    background-color: #2B2B2D
+    border-radius: 25px
+  &-c19
+    background-color: #FDD615
+  &-c20
+    background-color: #2B2B2D
+    height: 100px
+    border-bottom-left-radius: 25px
+    border-bottom-right-radius: 25px
+  &-c21
+    background-color: #FDD615
+    border-radius: 25px
+  &-c22
+    background-color: #2B2B2D
+    border-radius: 25px
+
+.txt
+  &-c1
+    background-color: #FFF6E9
+    padding: 4px
