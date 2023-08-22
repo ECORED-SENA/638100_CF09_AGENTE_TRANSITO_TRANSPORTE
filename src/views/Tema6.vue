@@ -206,7 +206,7 @@
           .col-8
             img(src='@/assets/curso/tema6/img13.svg' alt='AvatarTop')
         p.text-center #[b Señales preventivas tercer grupo]
-        p.text-center De curvatura horizontal.
+        p.text-center  Preventivas de Intersecciones con otras vías.
         .row.justify-content-center
           .col-auto
             a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo7.pdf')" target="_blank" type="application/pdf")

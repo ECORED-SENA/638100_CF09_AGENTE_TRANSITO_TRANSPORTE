@@ -80,7 +80,7 @@
                   i.fas.fa-quote-right
                 .row.align-items-end
                   .col
-                    .bloque-texto-e__autor 
+                    .bloque-texto-e__autor
                       .h5.mb-0 Ley 769 de 2002 en el Artículo 2
       .col-lg-6
         figure
@@ -200,49 +200,49 @@
         .p-4
           p #[b Símbolos testigos de los equipos]
           p.mb-0 Los testigos pueden tener 3 colores de acuerdo con la información que transmiten, los de color verde son informativos de los elementos que pueden estar funcionando en el momento de la conducción; los de color naranja indican que cuando se detenga el vehículo se revise adecuadamente y los testigos de color rojo son de atención inmediata, con estos dos últimos es probable que se requiera atención mecánica especializada, en algunas ocasiones una vez reparada la falla genera que el testigo se encienda, por tanto, se debe escanear para que esta se desactive. Los vehículos modernos vienen con testigos digitales y conectados.
-    p Cuando los testigos se iluminan el operador de la unidad de transporte debe detenerse en un lugar que no genere accidentes en la vía y que permita realizar la inspección. 
+    p Cuando los testigos se iluminan el operador de la unidad de transporte debe detenerse en un lugar que no genere accidentes en la vía y que permita realizar la inspección.
     p.mb-5 #[b Es importante examinar el color del testigo encendido a continuación se revisará el funcionamiento de los testigos rojos:]
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img22.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img24.png' alt='')
         p.text-center #[b Batería con signo de más y menos]
         p Este dibujo indica una falla en el sistema de carga o en la batería.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img23.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img23.png' alt='')
         p.text-center #[b Gotero con una gota]
         p Anuncia que se debe revisar la presión del aceite y evaluar la cantidad o cambio.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img24.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img22.png' alt='')
         p.text-center #[b Circulo entre paréntesis con un signo de admiración en medio]
         p Este testigo es uno de los que más debe tenerse presente, es un aviso sobre la falla en el sistema de frenos o también puede mostrar que está transitando con el freno de mano puesto.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img25.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img25.png' alt='')
         p.text-center #[b Auto con puertas abiertas]
         p Este icono informa que alguna puerta de pasajero del auto o el baúl está abierta.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img26.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img26.png' alt='')
         p.text-center #[b Individuo con el cinturón de seguridad]
         p Este dibujo indica que hay uno de los ocupantes sin el cinturón abrochado.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img27.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img27.png' alt='')
         p.text-center #[b Termómetro]
         p Este dibujo anuncia la elevación de la temperatura en el vehículo o la falta de líquido refrigerante.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img28.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img28.png' alt='')
         p.text-center #[b Timón]
         p Indica fallas en la dirección del automóvil.
     p.mb-5 Si bien es importante identificar el funcionamiento de los testigos rojos se reconoce que no son los únicos existentes en el tablero de instrumentos, entonces, qué ocurre con los testigos de color amarillo, identifique su función en el siguiente recurso:
@@ -250,37 +250,37 @@
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img29.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img29.png' alt='')
         p.text-center #[b Circulo con líneas a los lados]
         p Este dibujo es informa al piloto sobre el desgaste de las pastillas de freno.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img30.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img30.png' alt='')
         p.text-center #[b Motor]
         p Este testigo encendido muestra que hay una falla en el motor.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img31.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img31.png' alt='')
         p.text-center #[b Circulo con las letras ABS en el interior]
         p Anuncia un fallo en el sistema de frenos ABS.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img32.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img32.png' alt='')
         p.text-center #[b Vidrio con líneas punteadas]
         p Avisa que el nivel del tanque del limpiaparabrisas está bajo y debe llenarse.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img33.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img33.png' alt='')
         p.text-center #[b Dispensador de gasolina]
         p Informa sobre el nivel bajo de la gasolina en el vehículo.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema10/img34.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema10/img34.png' alt='')
         p.text-center #[b Individuo sentado con un círculo en frente]
         p Este testigo informa sobre el fallo en o desconexión de alguna de las bolsas de aire (Air bag) del vehículo.
     Separador
@@ -291,7 +291,7 @@
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='').m-auto
       .col-auto.bg-c11(style="z-index:1")
         .p-2
           h3.mb-0.ms-3 Sistemas de iluminación de los vehículos
@@ -353,11 +353,11 @@
               p.mb-0 Las luces de señalización también se usan como luces de peligro, luces intermitentes o luces de emergencia. Cuando se encienden las luces de emergencia, parpadean para advertir a otros conductores de problemas de tránsito o situación de emergencia. Por ejemplo, advertir a otros conductores de un peligro en la carretera, cuando el vehículo se ha detenido y está causando una obstrucción temporal. No deben utilizarse cuando estacionas temporalmente.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema10/img41.png', style="width: 450px" ,alt='').m-auto
+                img(src='@/assets/curso/tema10/42.png', style="width: 450px" ,alt='').m-auto
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='').m-auto
       .col-auto.bg-c11(style="z-index:1")
         .p-2
           h3.mb-0.ms-3 Sistemas auditivos / sonoros de los vehículos
@@ -406,16 +406,16 @@
             ul.lista-ul--color.mb-0
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Los cinturones de seguridad.
+                span Los cinturones de seguridad.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Los Airbags. Chasis y Carrocería.
+                span Los #[em airbags], chasis y Carrocería.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Cristales de los parabrisas y laterales.
+                span Cristales de los parabrisas y laterales.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Reposacabezas.
+                span Reposacabezas.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema10/img44.png', style="width: 420px" ,alt='').m-auto
@@ -425,28 +425,28 @@
             ul.lista-ul--color.mb-0
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | El ABS.
+                span El ABS.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Control de frenado en curva.
+                span Control de frenado en curva.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | El CBS. Se trata de un sistema combinado de frenos.
+                span El CBS. Se trata de un sistema combinado de frenos.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Control de presión de neumáticos.
+                span Control de presión de neumáticos.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | El control de estabilidad.
+                span El control de estabilidad.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Control dinámico de tracción.
+                span Control dinámico de tracción.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | El ajuste electrónico de la suspensión.
+                span El ajuste electrónico de la suspensión.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Iluminación dinámica.
+                span Iluminación dinámica.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema10/img45.png', style="width: 420px" ,alt='').m-auto
@@ -456,16 +456,16 @@
             ul.lista-ul--color.mb-0
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Cazadora. Para evitar abrasiones en caso de que el motorista caiga sobre el asfalto.
+                span Cazadora. Para evitar abrasiones en caso de que el motorista caiga sobre el asfalto.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Guantes.
+                span Guantes.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Protecciones de rodilla.
+                span Protecciones de rodilla.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Neck-brace. Este collarín ayuda a evitar problemas de cervicales.
+                span #[em Neck-brace]. Este collarín ayuda a evitar problemas de cervicales.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema10/img46.png', style="width: 420px" ,alt='').m-auto

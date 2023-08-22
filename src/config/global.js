@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Buenas prácticas en la conducción de vehículos',
     descripcionCurso:
       'Este componente formativo aborda aspectos clave de las buenas prácticas en la conducción de vehículos. Con su estudio responsable el aprendiz se afianzará en conocimiento y aplicación de la normatividad en tránsito y transporte, adaptación al medio y conocimiento del vehículo, para garantizar una circulación segura.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -190,7 +190,7 @@ export default {
     {
       tema: 'Adaptación al medio',
       referencia:
-        'Agencia Nacional de Seguridad Vial. (2016). Manual de referencia para conductores de vehículos en general y motocicletas. ANSV.',
+        'Agencia Nacional de Seguridad Vial. (2016). <em>Manual de referencia para conductores de vehículos en general y motocicletas.</em> ANSV.',
       tipo: 'Manual',
       link:
         'https://ansv.gov.co/es/normativa/manual-de-referencia-para-conductores-de-vehiculos-en-general-y-motocicletas',
@@ -226,7 +226,7 @@ export default {
       link: 'https://cdasugamuxi.com.co/gallery/NTC_5385.pdf',
     },
     {
-      tema: 'Conceptos de mantenimiento: preventivo,correctivo,predictivo',
+      tema: 'Conceptos de mantenimiento: preventivo, correctivo, predictivo',
       referencia:
         'Ministerio de Transporte. (2013). Resolución 378 de 2013. Por la cual se adoptan unas medidas para garantizar la seguridad en el transporte público terrestre automotor.',
       tipo: 'Resolución',

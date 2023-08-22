@@ -38,19 +38,19 @@
             ul.lista-ul--color.mb-0
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Es planeado de manera regular y ajustado a fechas definidas y a unos tiempos de intervención, independientemente de las condiciones operativas del equipo, con la finalidad de anticipar posibles daños o fallas.
+                span Es planeado de manera regular y ajustado a fechas definidas y a unos tiempos de intervención, independientemente de las condiciones operativas del equipo, con la finalidad de anticipar posibles daños o fallas.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Al ser un mantenimiento periódico reduce las consecuencias de daños mayores, pues son detectados a tiempo.
+                span Al ser un mantenimiento periódico reduce las consecuencias de daños mayores, pues son detectados a tiempo.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Para estas revisiones es muy conveniente elaborar un #[i check list], basado en las fichas técnicas de los equipos y las recomendaciones de los fabricantes, para preservar la integridad de las máquinas y tener una trazabilidad de los componentes revisados e intervenidos.
+                span Para estas revisiones es muy conveniente elaborar un #[i check list], basado en las fichas técnicas de los equipos y las recomendaciones de los fabricantes, para preservar la integridad de las máquinas y tener una trazabilidad de los componentes revisados e intervenidos.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Es de gran utilidad tener bases de datos que permitan llevar estos controles y avisen las fechas próximas de los mantenimientos y a que componentes.
+                span Es de gran utilidad tener bases de datos que permitan llevar estos controles y avisen las fechas próximas de los mantenimientos y a que componentes.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | La principal ventaja de este mantenimiento es que los equipos se conservan en mejores condiciones y pueden durar más tiempo operativos, bajando costos por intervenciones, pero esto también implica como desventaja realizar más inspecciones y mantenimientos menores en la vida útil del equipo.
+                span La principal ventaja de este mantenimiento es que los equipos se conservan en mejores condiciones y pueden durar más tiempo operativos, bajando costos por intervenciones, pero esto también implica como desventaja realizar más inspecciones y mantenimientos menores en la vida útil del equipo.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema12/img3.png', style="width: 420px" ,alt='').m-auto

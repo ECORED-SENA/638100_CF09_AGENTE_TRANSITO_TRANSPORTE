@@ -3,24 +3,28 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 17%
-    right: 80%
+    right: 78%
+    max-width: 85px
   &-2
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 17%
-    right: 17%
+    top: 19%
+    right: 24%
+    max-width: 85px
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     width: 20%
-    top: 75%
-    right: 17%
+    top: 73%
+    right: 25%
+    max-width: 90px
   &-4
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
     width: 20%
     top: 75%
     right: 80%
+    max-width: 90px
 
 @keyframes float1
   0%
@@ -36,8 +40,6 @@
   100%
     transform: translateX(0px)
 
-.banner-principal__img
-  width: 440px
 
 .banner-principal .tarjeta
   @media screen and ( max-width: $bp-max-lg )
@@ -55,6 +57,10 @@
   background-color: #D40A32
 .slyder-a__bullets__item
   background-color: #DF949A
+  @media (max-width: 450px)
+    margin: 0 5px
+  @media (max-width: 400px)
+    margin: 0 4px
 .slyder-a__bullets__item--active
   background-color: #D40A32
 .slyder-a__tipo-a .slyder-a__bullets
@@ -234,3 +240,37 @@
   &-c1
     background-color: #FFF6E9
     padding: 4px
+
+
+.lista-ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ul--color
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ol
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+
+.bg-color-secundario
+  background-color: $color-secundario
+  border-bottom-left-radius: 15px
+  border-bottom-right-radius: 15px
+
+.bg-white
+  background-color: #fff !important

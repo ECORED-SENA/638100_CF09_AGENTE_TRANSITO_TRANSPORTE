@@ -26,16 +26,17 @@
     .row.mb-5
       .col-12.bg-c14
         .p-4
+          p Sobre la inspección de vehículos es necesario:
           ul.lista-ul--color.mb-0
             li.d-flex
               i.fas.fa-car-side(style="color: #D40A32")
-              | Una revisión preoperacional es una herramienta que sirve para disminuir la probabilidad de un accidente.
+              span Una revisión preoperacional es una herramienta que sirve para disminuir la probabilidad de un accidente.
             li.d-flex
               i.fas.fa-car-side(style="color: #D40A32")
-              | Con estas revisiones se pueden detectar fallas y así se podrán corregir de manera oportuna.
+              span Con estas revisiones se pueden detectar fallas y así se podrán corregir de manera oportuna.
             li.d-flex
               i.fas.fa-car-side(style="color: #D40A32")
-              | Las inspecciones o revisiones se deben hacer de manera consciente y detenidamente para no pasar por alto ningún elemento que pueda poner en riesgo la seguridad del conductor, los ocupantes y los demás usuarios de la vía.
+              span Las inspecciones o revisiones se deben hacer de manera consciente y detenidamente para no pasar por alto ningún elemento que pueda poner en riesgo la seguridad del conductor, los ocupantes y los demás usuarios de la vía.
     p.mb-5 #[b.txt-c1 Las unidades de transporte se inspeccionan por seguridad de todos los actores viales, para preservar la vida, los bienes y los recursos, lo cual permite detectar un problema a tiempo y puede prevenir muchísimos inconvenientes]. Por lo anterior, se deben tener en cuenta los siguientes tips:
     .row.justify-content-center.mb-5
       .col-md-9.col-lg-5.m-2
@@ -97,19 +98,19 @@
     p.mb-5 #[b Para afianzar los conceptos vistos, le invitamos a revisar los videos de la Agencia Nacional de Seguridad Vial sobre el tema:]
     .row.mb-5
       .col-auto
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=KndkCCX-VEE" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p La mecánica preventiva.
       .col-auto
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=1AnDxvpxIiM" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p Revisión técnico mecánica.
       .col-auto
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=XOrepCH9czw" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -128,7 +129,7 @@
           img(src='@/assets/curso/tema11/img10.png', style="width: 380px" ,alt='').m-auto
       .col-lg-8
         p Basados en esta normatividad, se le orienta al aprendiz para que conozca qué debe tener en cuenta para realizar sus listas de chequeo y sus inspecciones. Sin embargo, en la actualidad, también se cuenta con la Resolución 3768 de 2013, que es la que regula la Inspección Técnica Vehicular.
-        p En el Código Nacional de Tránsito, el Artículo 28 dice textualmente que para que un vehículo pueda transitar por el territorio nacional:
+        p En el #[strong Código Nacional de Tránsito, el Artículo 28] dice textualmente que para que un vehículo pueda transitar por el territorio nacional:
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
@@ -137,19 +138,19 @@
     p.mb-5 #[b En los siguientes documentos, podrá afianzar los conocimientos adquiridos sobre las normatividades importantes a nivel nacional, por lo que le invitamos a descargarlos y revisarlos de manera autónoma.]
     .row.mb-5
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/ley-769-de-2002-codigo-nacional-de-transito_3704_0.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Ley 769 de 2002.
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Resolucion_3768_2013-Sep-26.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Resolución 3768 de 2013.
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/LA-ITV-EN-COLOMBIA.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -159,7 +160,7 @@
       .col-lg-8.mb-4.mb-lg-0
         .tarjeta.tarjeta--azul
           .p-4
-            SlyderA
+            SlyderA(tipo="b")
               .row.justify-content-center
                 .col-10
                   .row.align-items-center.mb-3
@@ -235,53 +236,58 @@
             figure
               img(src='@/assets/curso/tema11/img22.png', alt='Texto que describa la imagen')
           .tarjeta.color-acento-botones1.p-3(x="34.3%" y="25.8%" numero="+")
+            h5 Para la revisión exterior
             p Definida en la NTC 5375, los elementos a inspeccionar son:
             .row
               .col-6
                 ul.lista-ul--color.mb-0
                   li.d-flex
                     i.fas.fa-car-side(style="color: #D40A32")
-                    | Chasis.
+                    span Chasis.
                   li.d-flex
                     i.fas.fa-car-side(style="color: #D40A32")
-                    | Carrocería.
+                    span Carrocería.
                   li.d-flex
                     i.fas.fa-car-side(style="color: #D40A32")
-                    | Limpiaparabrisas.
+                    span Limpiaparabrisas.
                   li.d-flex
                     i.fas.fa-car-side(style="color: #D40A32")
-                    | Espejos retrovisores.
+                    span Espejos retrovisores.
               .col-6
                 ul.lista-ul--color.mb-0
                   li.d-flex
                     i.fas.fa-car-side(style="color: #D40A32")
-                    | Escalones de ascenso.
+                    span Escalones de ascenso.
                   li.d-flex
                     i.fas.fa-car-side(style="color: #D40A32")
-                    | Soportes de llanta de repuesto.
+                    span Soportes de llanta de repuesto.
                   li.d-flex
                     i.fas.fa-car-side(style="color: #D40A32")
-                    | Vidrios.
+                    span Vidrios.
                   li.d-flex
                     i.fas.fa-car-side(style="color: #D40A32")
-                    | Dispositivos de retención de carga.
+                    span Dispositivos de retención de carga.
           .tarjeta.color-acento-botones1.p-3(x="39.6%" y="48%" numero="+")
+            h5 Para la revisión interior
             p Basada en la seguridad pasiva del vehículo, la norma establece lo siguiente en la revisión:
             ul.lista-ul--color.mb-0
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Habitáculo del conductor y pasajeros.
+                span Habitáculo del conductor y pasajeros.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Cinturones de seguridad y anclajes.
+                span Cinturones de seguridad y anclajes.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                | Dispositivos de control y seguridad.
+                span Dispositivos de control y seguridad.
           .tarjeta.color-acento-botones1.p-3(x="50%" y="55%" numero="+")
+            h5 Alumbrado y señalización
             p Es muy importante su adecuada revisión, ya que los equipos deben lograr permitir ver y ser vistos en sus desplazamientos, importante en la seguridad activa.
           .tarjeta.color-acento-botones1.p-3(x="60.4%" y="47.6%" numero="+")
+            h5 Salidas de emergencia
             p Están dadas, sobre todo, en el transporte de pasajeros, para una adecuada evacuación en caso de emergencia; están reglamentadas en la NTC 5375.
           .tarjeta.color-acento-botones1.p-3(x="65.7%" y="25.8%" numero="+")
+            h5 Sistema de frenos
             p Debe evaluarse en forma detallada.
       .col-12.d-block.d-lg-none
         figure.mb-5
@@ -297,28 +303,28 @@
                   ul.lista-ul--color.mb-0
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Chasis.
+                      span Chasis.
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Carrocería.
+                      span Carrocería.
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Limpiaparabrisas.
+                      span Limpiaparabrisas.
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Espejos retrovisores.
+                      span Espejos retrovisores.
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Escalones de ascenso.
+                      span Escalones de ascenso.
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Soportes de llanta de repuesto.
+                      span Soportes de llanta de repuesto.
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Vidrios.
+                      span Vidrios.
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Dispositivos de retención de carga.
+                      span Dispositivos de retención de carga.
           .col-md-8.mb-4
             .tarjeta-avatar
               img(src='@/assets/curso/tema11/img2.svg' alt='AvatarTop')
@@ -329,13 +335,13 @@
                   ul.lista-ul--color.mb-0
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Habitáculo del conductor y pasajeros.
+                      span Habitáculo del conductor y pasajeros.
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Cinturones de seguridad y anclajes.
+                      span Cinturones de seguridad y anclajes.
                     li.d-flex
                       i.fas.fa-car-side(style="color: #D40A32")
-                      | Dispositivos de control y seguridad.
+                      span Dispositivos de control y seguridad.
           .col-md-8.mb-4
             .tarjeta-avatar
               img(src='@/assets/curso/tema11/img3.svg' alt='AvatarTop')
@@ -369,7 +375,7 @@
               p Para aprender más sobre: sistema de suspensión, sistema de dirección, rines y llantas, motor, sistema de combustible, sistema de transmisión, etc., puede descargar el documento y revisarlo para afianzar sus conocimientos sobre NTC 5375.
               .row
                 .col-auto
-                  a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo4.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/ntc-5375.pdf')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
       .col-11.col-md-8.col-lg.bg-c22.m-2
@@ -383,13 +389,14 @@
               p.text-white La NTC 5385 es de vital importancia para su conocimiento, por lo que le invitamos a descargar y revisar el documento con el fin de profundizar en el tema.
               .row
                 .col-auto
-                  a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo4.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/ntc-5385.pdf')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
     p.mb-5 Por otro lado, también se habla de la inspección de unidades de transporte, por lo que se presenta un panorama general de cómo realizarla, para lo cual se hace necesario apoyarse en los sentidos, (inspecciones sensoriales), entre los cuales se tienen:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/QzWr2AecXZA" title="Inspecciones de unidades de transporte" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Inspecciones de unidades de transporte
     .row
       .col-12.bg-c4
         .p-4

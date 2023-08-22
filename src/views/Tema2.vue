@@ -63,15 +63,6 @@
                 .col-lg-3
                   figure
                     img(src='@/assets/curso/tema2/img6.png', style="width: 280px" ,alt='').m-auto
-              .row.justify-content-center(titulo="Ubicación del vehículo en la vía y sus componentes")
-                .col-lg-8.mb-4.mb-lg-0
-                  .row
-                    .col-12
-                      .p-4
-                        p.mb-0 Se refiere a la adecuada utilización de los carriles respetando las líneas de demarcación, las maniobras que son permitidas ejecutar tales como adelantar un vehículo o cruzar de una calzada a otra y la prelación que existe en lugares como las glorietas e intersecciones.
-                .col-lg-3
-                  figure
-                    img(src='@/assets/curso/tema2/img5.png', style="width: 280px" ,alt='').m-auto
               .row.justify-content-center(titulo="Accidentalidad en Colombia")
                 .col-lg-8.mb-4.mb-lg-0
                   .row
@@ -132,10 +123,11 @@
 </template>
 
 <script>
+import LineaTiempoC from '@/components/LineaTiempoC.vue'
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    components: { LineaTiempoC },
   }),
   mounted() {
     this.$nextTick(() => {

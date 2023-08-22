@@ -64,7 +64,7 @@
               p.mb-0 Toda maniobra para adelantar implica invadir el carril contrario o el carril de otros vehículos que van en sentido de circulación contrario, o no, y volver a su carril original de manera segura, ya que cuenta con el espacio suficiente y es visto por los vehículos que vienen de frente a él.
             .col-lg-4
               figure
-                img(src='@/assets/curso/tema7/img1.svg', style="width: 170px" ,alt='').m-auto
+                img(src='@/assets/curso/tema7/img4.svg', style="width: 170px" ,alt='').m-auto
           .row.justify-content-center.align-items-center(titulo="Visibilidad")
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 Es común llevar a cabo maniobras indebidas, generalmente en zonas donde es prohibido adelantar. La Distancia de Visibilidad de Adelantamiento (DVA), es definida como la longitud continua de visibilidad que requiere un conductor para invadir el carril del sentido contrario para adelantar.
