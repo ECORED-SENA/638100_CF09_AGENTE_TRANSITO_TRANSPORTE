@@ -17,7 +17,7 @@
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='').m-auto
       .col-auto.bg-c11(style="z-index:1")
         .p-2
           h3.mb-0.ms-3 Señales verticales
@@ -30,7 +30,7 @@
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='').m-auto
       .col-auto.bg-c11(style="z-index:1")
         .p-2
           h3.mb-0.ms-3 Señales reglamentarias
@@ -76,51 +76,52 @@
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema6/img6.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img6.svg' alt='')
         p.text-center #[b Señales de prohibición primer grupo]
         p.text-center Prohibición de maniobras y giros
         .row.justify-content-center
           .col-auto
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3.anexo-1.indicador__container(@click="modal1 = true")
               span Ver señales
               i.fas.fa-file-download
+              .indicador--click(v-if="mostrarIndicador")
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema6/img7.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img7.svg' alt='')
         p.text-center #[b Señales preventivas segundo grupo]
         p.text-center Prohibición de maniobras y giros
         .row.justify-content-center
           .col-auto
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3.anexo-2.indicador__container(@click="modal2 = true")
               span Ver señales
               i.fas.fa-file-download
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema6/img8.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img8.svg' alt='')
         p.text-center #[b Señales de prohibición tercer grupo]
         p.text-center Otras prohibiciones relacionadas a velocidad, luces, tipo de vehículo, etc.
         .row.justify-content-center
           .col-auto
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo3.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3.anexo-3.indicador__container(@click="modal3 = true")
               span Ver señales
               i.fas.fa-file-download
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema6/img9.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img9.svg' alt='')
         p.text-center #[b Señales de prohibición cuarto grupo]
         p.text-center Prohibición de maniobras y circulación.
         .row.justify-content-center
           .col-auto
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo4.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3.anexo-4.indicador__container(@click="modal4 = true")
               span Ver señales
               i.fas.fa-file-download
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='').m-auto
       .col-auto.bg-c11(style="z-index:1")
         .p-2
           h3.mb-0.ms-3 Señales preventivas
@@ -134,7 +135,7 @@
     .row.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Tabla 4].
+          p.mb-0 #[b Tabla 4]. Señales preventivas y su clasificación
         .tabla-a.color-acento-botones
           table
             tbody
@@ -173,18 +174,19 @@
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema6/img11.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img11.svg' alt='')
         p.text-center #[b Señales preventivas primer grupo]
         p.text-center De curvatura horizontal.
         .row.justify-content-center
           .col-auto
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo5.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3.anexo-5.indicador__container(@click="modal5 = true")
               span Ver señales
               i.fas.fa-file-download
+              .indicador--click(v-if="mostrarIndicador")
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema6/img12.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img12.svg' alt='')
         p.text-center #[b Señales preventivas segundo grupo]
         ul.lista-ul--color
           li.d-flex
@@ -198,24 +200,24 @@
             | Preventivas sobre restricciones  físicas de la vía.
         .row.justify-content-center
           .col-auto
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo6.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3.anexo-6.indicador__container(@click="modal6 = true")
               span Ver señales
               i.fas.fa-file-download
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema6/img13.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img13.svg' alt='')
         p.text-center #[b Señales preventivas tercer grupo]
         p.text-center  Preventivas de Intersecciones con otras vías.
         .row.justify-content-center
           .col-auto
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo7.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3.anexo-7.indicador__container(@click="modal7 = true")
               span Ver señales
               i.fas.fa-file-download
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema6/img14.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema6/img14.svg' alt='')
         p.text-center #[b Señales preventivas cuarto grupo]
         ul.lista-ul--color
           li.d-flex
@@ -226,13 +228,13 @@
             | Preventivas sobre situaciones especiales.
         .row.justify-content-center
           .col-auto
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo8.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-3.anexo-8.indicador__container(@click="modal8 = true")
               span Ver señales
               i.fas.fa-file-download
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='').m-auto
       .col-auto.bg-c11(style="z-index:1")
         .p-2
           h3.mb-0.ms-3 Señales informativas
@@ -279,9 +281,10 @@
                     | Identificación de rutas y calles.
                 .row.justify-content-center
                   .col-auto
-                    a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo9.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-acento-botones.me-3.anexo-9.indicador__container(@click="modal9 = true")
                       span Ver señales
                       i.fas.fa-file-download
+                      .indicador--click(v-if="mostrarIndicador")
             .col-11.col-md-8.col-lg.bg-c13.m-2
               .p-4
                 figure.mb-4
@@ -290,7 +293,7 @@
                 p.text-center Servicios generales.
                 .row.justify-content-center
                   .col-auto
-                    a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo10.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-acento-botones.me-3.anexo-10.indicador__container(@click="modal10 = true")
                       span Ver señales
                       i.fas.fa-file-download
             .col-11.col-md-8.col-lg.bg-c13.m-2
@@ -310,13 +313,13 @@
                     | Cualquier otra información de importancia para los conductores.
                 .row.justify-content-center
                   .col-auto
-                    a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo11.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-acento-botones.me-3.anexo-11.indicador__container(@click="modal11 = true")
                       span Ver señales
                       i.fas.fa-file-download
           .row.align-items-center.mb-4
             .col-auto.pe-0(style="z-index:2")
               figure
-                img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema6/img3.svg', style="width: 50px" ,alt='').m-auto
             .col-auto.bg-c11(style="z-index:1")
               .p-2
                 h3.mb-0.ms-3 Demarcaciones
@@ -332,6 +335,51 @@
               iframe(width="560" height="315" src="https://www.youtube.com/embed/YkheE91-VYc" title="Manual de señalización vial - Demarcaciones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Video. Manual de señalización vial - Demarcaciones
 
+    ModalA(:abrir-modal.sync="modal1")
+      figure
+        img(src='@/assets/curso/tema6/ProhibicionPrimerGrupo.png', alt='Señales de prohibición de primer grupo')
+
+    ModalA(:abrir-modal.sync="modal2")
+      figure
+        img(src='@/assets/curso/tema6/ProhibicionSegundoGrupo.png', alt='Señales de prohibición de segundo grupo')
+
+    ModalA(:abrir-modal.sync="modal3")
+      figure
+        img(src='@/assets/curso/tema6/ProhibicionTercerGrupo.png', alt='Señales de prohibición de tercer grupo')
+
+    ModalA(:abrir-modal.sync="modal4")
+      figure
+        img(src='@/assets/curso/tema6/ProhibicioncuartoGrupo.png', alt='Señales de prohibición de cuarto grupo')
+
+
+    ModalA(:abrir-modal.sync="modal5")
+      figure
+        img(src='@/assets/curso/tema6/PreventivasPrimerGrupo.png', alt='Señales preventivas de primer grupo')
+
+    ModalA(:abrir-modal.sync="modal6")
+      figure
+        img(src='@/assets/curso/tema6/PreventivasSegundoGrupo.png', alt='Señales preventivas de segundo grupo')
+
+    ModalA(:abrir-modal.sync="modal7")
+      figure
+        img(src='@/assets/curso/tema6/PreventivasTercerGrupo.png', alt='Señales preventivas de tercer grupo')
+
+    ModalA(:abrir-modal.sync="modal8")
+      figure
+        img(src='@/assets/curso/tema6/PreventivasCuartoGrupo.png', alt='Señales preventivas de cuarto grupo')
+
+
+    ModalA(:abrir-modal.sync="modal9")
+      figure
+        img(src='@/assets/curso/tema6/informativasPrimerGrupo.png', alt='Señales informativas de primer grupo')
+
+    ModalA(:abrir-modal.sync="modal10")
+      figure
+        img(src='@/assets/curso/tema6/InformativasSegundoGrupo.png', alt='Señales informativas de segundo grupo')
+
+    ModalA(:abrir-modal.sync="modal11")
+      figure
+        img(src='@/assets/curso/tema6/InformativasTercerGrupo.png', alt='Señales informativas de tercer grupo')
 </template>
 
 <script>
@@ -339,6 +387,18 @@ export default {
   name: 'Tema6',
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
+    modal5: false,
+    modal6: false,
+    modal7: false,
+    modal8: false,
+    modal9: false,
+    modal10: false,
+    modal11: false,
   }),
   mounted() {
     this.$nextTick(() => {
