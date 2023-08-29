@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 9
+        span 8
       h1 Utilización de carriles
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
@@ -28,21 +28,21 @@
               ul.lista-ul--color.mb-0
                 li.d-flex
                   i.fas.fa-car-side(style="color: #D40A32")
-                  | Por norma general en Colombia, se debe transitar por el carril derecho.
+                  span Por norma general en Colombia, se debe transitar por el carril derecho.
                 li.d-flex
                   i.fas.fa-car-side(style="color: #D40A32")
-                  | Se debe adelantar por el carril izquierdo.
+                  span Se debe adelantar por el carril izquierdo.
                 li.d-flex
                   i.fas.fa-car-side(style="color: #D40A32")
-                  | Con la demarcación de piso se pueden diferenciar los diferentes carriles de circulación.
+                  span Con la demarcación de piso se pueden diferenciar los diferentes carriles de circulación.
                 li.d-flex
                   i.fas.fa-car-side(style="color: #D40A32")
-                  | En la zona de seguridad y bermas está prohibido el tránsito de vehículos y llevar a cabo maniobras de adelantamiento.
+                  span En la zona de seguridad y bermas está prohibido el tránsito de vehículos y llevar a cabo maniobras de adelantamiento.
     p.mb-5 El Código Nacional de Tránsito en el artículo 68, establece la utilización de carriles, por lo que los vehículos transitarán de la siguiente manera:
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Tabla 7]. Utilización de carriles
+          p.mb-0 #[b Tabla 4]. Utilización de carriles
         .tabla-a.color-acento-botones
           table
             tbody

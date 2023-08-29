@@ -71,71 +71,65 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Conocimiento de las señales de tránsito',
+        titulo: 'Maniobras de adelantamiento',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'Maniobras de adelantamiento',
+        titulo: 'Distancias de seguridad',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema8',
         numero: '8',
-        titulo: 'Distancias de seguridad',
+        titulo: 'Utilización de carriles',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema9',
         numero: '9',
-        titulo: 'Utilización de carriles',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema10',
-        numero: '10',
         titulo: 'Conceptos de mecánica básica',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '10.1',
+            numero: '9.1',
             titulo:
               'Características de llantas, carrocería, sistema eléctrico, lubricantes, correas de transmisión',
-            hash: 't_10_1',
+            hash: 't_9_1',
           },
           {
-            numero: '10.2',
+            numero: '9.2',
             titulo: 'Funcionamiento de testigos de los equipos',
-            hash: 't_10_2',
+            hash: 't_9_2',
           },
           {
-            numero: '10.3',
+            numero: '9.3',
             titulo: 'Señales luminosas y auditivas de los equipos',
-            hash: 't_10_3',
+            hash: 't_9_3',
           },
           {
-            numero: '10.4',
+            numero: '9.4',
             titulo: 'Seguridad pasiva y activa del vehículo',
-            hash: 't_10_4',
+            hash: 't_9_4',
           },
           {
-            numero: '10.5',
+            numero: '9.5',
             titulo:
               'Características y componentes del equipo de prevención y seguridad',
-            hash: 't_10_5',
+            hash: 't_9_5',
           },
         ],
       },
       {
-        nombreRuta: 'tema11',
-        numero: '11',
+        nombreRuta: 'tema10',
+        numero: '10',
         titulo: 'Técnicas para inspección de medios de transporte',
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'tema12',
-        numero: '12',
+        nombreRuta: 'tema11',
+        numero: '11',
         titulo:
           'Conceptos de mantenimiento: preventivo, correctivo, predictivo',
         desarrolloContenidos: true,
@@ -172,7 +166,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/638100_CF09_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -240,14 +234,6 @@ export default {
       tipo: 'Ley',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=31604',
-    },
-    {
-      tema: 'Conocimiento de las señales de tránsito',
-      referencia:
-        'Ministerio de Transporte. (2015). Resolución 1885 de 2015. Por la cual se adopta el Manual de Señalización Vial.',
-      tipo: 'Manual',
-      link:
-        'https://www.mintransporte.gov.co/documentos/29/manuales-de-senalizacion-vial/',
     },
   ],
   glosario: [

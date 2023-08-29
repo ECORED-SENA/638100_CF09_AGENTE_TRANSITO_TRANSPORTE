@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 8
+        span 7
       h1 Distancias de seguridad
     .row.justify-content-center.mb-5
       .col-md-9.col-lg.bg-c15
@@ -18,7 +18,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Tabla 6]. Separación entre vehículos
+          p.mb-0 #[b Tabla 3]. Separación entre vehículos
         .tabla-a.color-acento-botones
           table
             tbody

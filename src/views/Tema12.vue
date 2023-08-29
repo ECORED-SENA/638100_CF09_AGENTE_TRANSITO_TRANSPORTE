@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 12
+        span 11
       h1 Conceptos de mantenimiento: preventivo, correctivo, predictivo
     .row.justify-content-center.mb-5
       .col-md-9.col-lg.bg-c15

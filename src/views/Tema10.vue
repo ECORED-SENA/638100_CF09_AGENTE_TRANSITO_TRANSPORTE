@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 10
+        span 9
       h1 Conceptos de mecánica básica
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
@@ -59,9 +59,9 @@
                     p.text-center #[b Diagnóstico y reparación de fallas básicas]
                     p.text-center Se hace necesario, además, saber manejar e interpretar los manuales de operación del vehículo, ya que estos dan las pautas para diagnosticar una falla y así mismo poder reparar o reemplazar de manera correcta los elementos del vehículo que estén presentando fallas.
     Separador
-    #t_10_1
+    #t_9_1
     .titulo-segundo.color-acento-contenido
-      h2 10.1. Características de llantas, carrocería, sistema eléctrico, lubricantes, correas de transmisión
+      h2 9.1. Características de llantas, carrocería, sistema eléctrico, lubricantes, correas de transmisión
     p Es importante que dentro del proceso de aprendizaje el aprendiz conozca los sistemas que componen las unidades de transporte, para definir qué elementos va a inspeccionar de manera visual y garantizar que estén cumpliendo los requisitos para operar.
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
@@ -188,9 +188,9 @@
         p.text-center #[b Motores de GLP (gas licuado de petróleo)]
         p La combustión se logra por la inflamación de combustibles alternativos.
     Separador
-    #t_10_2
+    #t_9_2
     .titulo-segundo.color-acento-contenido
-      h2 10.2. Funcionamiento de testigos de los equipos
+      h2 9.2. Funcionamiento de testigos de los equipos
     p.mb-5 Los testigos en las unidades de transporte son pictogramas codificados que están ubicados en el tablero de instrumentos, tienen como objetivo principal dar aviso sobre el funcionamiento de los sistemas y los dispositivos del vehículo y, alertar sobre una falla o avería en los mismos.
     .row.justify-content-center.mb-5
       .col-lg-auto.px-0
@@ -284,9 +284,9 @@
         p.text-center #[b Individuo sentado con un círculo en frente]
         p Este testigo informa sobre el fallo en o desconexión de alguna de las bolsas de aire (Air bag) del vehículo.
     Separador
-    #t_10_3
+    #t_9_3
     .titulo-segundo.color-acento-contenido
-      h2 10.3. Señales luminosas y auditivas de los equipos
+      h2 9.3. Señales luminosas y auditivas de los equipos
     p.mb-5 Los dispositivos dentro del campo de seguridad vial son fundamentales, ya que los actores viales a través de sus sentidos pueden percibir la presencia de vehículos o equipos en las vías o en sus inmediaciones y generan seguridad en sus desplazamientos. Estos son:
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
@@ -368,9 +368,9 @@
         figure
           img(src='@/assets/curso/tema10/img42.png', style="width: 450px" ,alt='').m-auto
     Separador
-    #t_10_4
+    #t_9_4
     .titulo-segundo.color-acento-contenido
-      h2 10.4. Seguridad pasiva y activa del vehículo
+      h2 9.4. Seguridad pasiva y activa del vehículo
     p.mb-5 El avance tecnológico que se da por los fabricantes de vehículos en materia de seguridad vial está orientado a proteger la vida del conductor, de manera que la seguridad activa y pasiva se clasifica básicamente en dos componentes:
     TabsB.color-secundario
       .py-4.py-md-5(titulo="Seguridad Activa" :icono="require('@/assets/curso/tema10/img2.svg')")
@@ -470,9 +470,9 @@
             figure
               img(src='@/assets/curso/tema10/img46.png', style="width: 420px" ,alt='').m-auto
     Separador
-    #t_10_5
+    #t_9_5
     .titulo-segundo.color-acento-contenido
-      h2 10.5. Características y componentes del equipo de prevención y seguridad
+      h2 9.5. Características y componentes del equipo de prevención y seguridad
     p.mb-5 El equipo de prevención y seguridad es el conjunto de elementos necesarios para la atención inicial de emergencias que debe poseer un vehículo, de acuerdo con las disposiciones del Ministerio de Transporte ningún automotor podrá transitar sin estos elementos, si se presenta el caso se puede ordenar comparendo según las infracciones del Código Nacional de Tránsito.
     SlyderF(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-terciario.p-4
