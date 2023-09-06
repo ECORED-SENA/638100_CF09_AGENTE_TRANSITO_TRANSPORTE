@@ -9,7 +9,7 @@
     .row.justify-content-center.mb-5
       .col-md-9.col-lg.bg-c8
         .p-4
-          p En pro de ayudar a la buena movilidad y la seguridad vial surge la responsabilidad que se tiene de garantizar en óptimas condiciones de circulación el vehículo, cumpliendo con todos los requerimientos que exige la normatividad.
+          p En pro de ayudar a la buena movilidad y la seguridad vial, surge la responsabilidad que se tiene de garantizar las óptimas condiciones de circulación del vehículo, cumpliendo con todos los requerimientos que exige la normatividad.
           p.mb-0 #[b Como buen hábito se debe hacer, frecuentemente, una revisión preoperacional del vehículo, teniendo en cuenta aspectos básicos y conforme a las recomendaciones dadas en el manual del fabricante.]
       .col-lg-auto.px-0
         figure
@@ -150,7 +150,7 @@
           .anexo__texto
             p Resolución 3768 de 2013.
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/LA-ITV-EN-COLOMBIA.pdf')" target="_blank")
+        a.anexo.mb-4(href="https://www.aso-cda.org/wp-content/uploads/2017/08/LA-ITV-EN-COLOMBIA.pdf" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

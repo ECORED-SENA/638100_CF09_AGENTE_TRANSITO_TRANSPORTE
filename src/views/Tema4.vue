@@ -15,7 +15,7 @@
     .row.mb-5
       .col-12.bg-c7
         .p-4
-          p.mb-0 Es por lo anterior que surge el concepto de #[b manejo defensivo] que se constituye en un conjunto de herramientas, estrategias y habilidades en la conducción que ayudan disminuir los accidentes de tránsito y sus efectos, anticipándose a lo hechos, a las situaciones de peligro y estar atentos los errores que puedan cometer otros actores viales para actuar de forma correcta y oportuna, tomando las decisiones acertadas para poner a salvo la vida del conductor y demás usuarios de la vía y que, por consiguiente, evitaran desenlaces infortunados.
+          p.mb-0 Es por lo anterior que surge el concepto de #[b manejo defensivo] que se constituye en un conjunto de herramientas, estrategias y habilidades en la conducción que ayudan a disminuir los accidentes de tránsito y sus efectos, anticipándose a los hechos, a las situaciones de peligro y estar atentos a los errores que puedan cometer otros actores viales para actuar de forma correcta y oportuna, tomando las decisiones acertadas para poner a salvo la vida del conductor y demás usuarios de la vía y que, por consiguiente, evitarán desenlaces infortunados.
     .row.mb-5
       .col-12.bg-c4
         .p-4
@@ -28,7 +28,7 @@
     p.mb-5 Los aspectos más importantes a tener en cuenta en el manejo defensivo son:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/iwmjup75tRI" title="Generalidades del manejo defensivo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/FkOknFU9FlQ?si=YJCEQWvh46_ktgrz" title="Generalidades del manejo defensivo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Generalidades del manejo defensivo
     .row
       .col-12.bg-c3

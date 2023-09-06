@@ -24,7 +24,7 @@
               figure
                 img(src='@/assets/curso/tema1/img2.svg', style="width: 70px" ,alt='').m-auto
             .col
-              p.mb-0 La práctica de buenos hábitos en la conducción se verá reflejada a la hora de conducir un vehículo, siendo consciente de la responsabilidad que con lleva poner las manos al volante y tomar las mejores decisiones para no caer en actitudes que pondrán en riesgo la seguridad propia y la de los demás, disminuyendo la probabilidad de provocar accidentes de tránsito.
+              p.mb-0 La práctica de buenos hábitos en la conducción se verá reflejada a la hora de conducir un vehículo, siendo consciente de la responsabilidad que conlleva poner las manos al volante y tomar las mejores decisiones para no caer en actitudes que pondrán en riesgo la seguridad propia y la de los demás, disminuyendo la probabilidad de provocar accidentes de tránsito.
     .row.bg-c6
       .col-12
         .px-5
@@ -36,8 +36,8 @@
                     figure
                       img(src='@/assets/curso/tema1/img2.svg', style="width: 70px" ,alt='').m-auto
                   .col
-                    p.mb-0 Es importante incentivar el desarrollo de campañas y promover la educación vial en los diferentes actores viales, el conocimiento de las normas, su aplicación en la vía y concientizar a cerca del rol de cada uno de los usuarios para promover una movilidad segura.
-          p.mb-5 Algunos de los hábitos y comportamientos más frecuentes que garantizaran la seguridad vial son:
+                    p.mb-0 Es importante incentivar el desarrollo de campañas y promover la educación vial en los diferentes actores viales, el conocimiento de las normas, su aplicación en la vía y concientizar acerca del rol de cada uno de los usuarios para promover una movilidad segura.
+          p.mb-5 Algunos de los hábitos y comportamientos más frecuentes que garantizarán la seguridad vial son:
           .row.mb-3
             .col-lg-3.mb-4.mb-lg-0.d-none.d-lg-block
               figure
@@ -76,7 +76,7 @@
                   | Obedecer a la prelación que tienen los vehículos según el tipo de vía, por ejemplo, en las glorietas.
                 li.d-flex
                   i.fas.fa-car-side(style="color: #D40A32")
-                  | Colocar las debidas señales de advertencia y peligro para advertir a otros conductores, especialmente si el vehículo debe ser estacionado en un lugar de la vía nos dispuesto para tal fon como la berma.
+                  | Colocar las debidas señales de advertencia y peligro para advertir a otros conductores, especialmente si el vehículo debe ser estacionado en un lugar de la vía no dispuesto para tal fin como la berma.
                 li.d-flex
                   i.fas.fa-car-side(style="color: #D40A32")
                   | Ser tolerante con el resto de los actores viales y mantener una buena actitud al volante.

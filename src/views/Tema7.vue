@@ -35,7 +35,7 @@
               span Asegurarse de que no hay otro vehículo atrás que quiera sobrepasarlo, haciendo uso de los espejos retrovisores, esto podrá originar un choque.
             li.d-flex
               i.fas.fa-car-side(style="color: #D40A32")
-              span Si se tiene con el espacio suficiente para hacer la maniobra y está seguro de hacerlo, haga saber su intención con las luces direccionales.
+              span Si se tiene el espacio suficiente para hacer la maniobra y está seguro de hacerlo, haga saber su intención con las luces direccionales.
             li.d-flex
               i.fas.fa-car-side(style="color: #D40A32")
               span Verificar si se cuenta con el tiempo, la distancia y la visibilidad para realizar el adelantamiento.

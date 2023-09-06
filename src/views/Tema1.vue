@@ -27,7 +27,7 @@
                     figure
                       img(src='@/assets/curso/tema1/img2.svg', style="width: 70px" ,alt='').m-auto
                   .col
-                    p.mb-0 En Colombia es el Ministerio de Transporte quien define, orienta, vigila e inspecciona la ejecución de políticas nacionales en cuanto a tránsito se refiere, como máxima autoridad en lo que tiene que ver con tránsito y transporte, a su vez las autoridades de tránsito serán las encargadas de promover la difusión y el conocimiento de las disposiciones del Código Nacional de Tránsito.
+                    p.mb-0 En Colombia, es el Ministerio de Transporte quien define, orienta, vigila e inspecciona la ejecución de políticas nacionales en cuanto a tránsito se refiere, como máxima autoridad en lo que tiene que ver con tránsito y transporte, a su vez las autoridades de tránsito serán las encargadas de promover la difusión y el conocimiento de las disposiciones del Código Nacional de Tránsito.
           p.mb-5 Dentro de los documentos que son de carácter obligatorio al conducir un vehículo, se encuentran:
           .tarjeta.tarjeta--azul.mb-5
             .p-4.p-lg-5
@@ -80,7 +80,7 @@
                 td Motocicletas
                 td #[b A1]: Motocicletas con cilindrada hasta 125 c.c.
                 td #[b A2]: Motocicletas y mototriciclos con cilindrada mayor a 125 c.c.
-                td 
+                td
               tr
                 td Vehículos
                 td #[b B1]: Automóviles, motocarros, cuatrimotos, camperos, camionetas y microbuses de servicio particular.
@@ -94,7 +94,7 @@
                 td #[b C3]: Vehículos articulados servicio público.
               tr
                 td(colspan="5") No es restrictivo que en la licencia de conducción de mayor categoría se pueda operar vehículos de categoría inferior.
-      
+
 </template>
 
 <script>

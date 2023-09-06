@@ -26,7 +26,7 @@
                       img(src='@/assets/curso/tema1/img2.svg', style="width: 70px" ,alt='').m-auto
                   .col
                     p.mb-0 Entiéndase por velocidad la relación que se establece entre el espacio recorrido por un objeto (vehículo) y el tiempo que gasta en recorrer ese espacio. Generalmente, su unidad de medida es km/h, por ejemplo: 60 km/h, significa que un vehículo recorre sesenta kilómetros en una hora.
-          p.mb-5 #[b En relación con la velocidad, se deben tener tenga presentes algunos aspectos clave como los que se detallan a continuación:]
+          p.mb-5 #[b En relación con la velocidad, se deben tener presentes algunos aspectos clave como los que se detallan a continuación:]
           .tarjeta.tarjeta--azul.mb-5
             .p-4.p-lg-5
               SlyderA(tipo="b")
@@ -86,7 +86,7 @@
               tr
                 td(colspan="2")
                   p #[b Parágrafo]
-                  p.mb-0 La entidad encargada de fijar la velocidad máxima y mínima, en las zonas urbanas de que trata el artículo 106 y en las carreteras nacionales y departamentales de que trata este artículo, debe establecer los límites de velocidad de forma sectorizada, razonable, apropiada y coherente con el tráfico vehicular, las condiciones del medio ambiente, la infraestructura vial, el estado de las vías, visibilidad, las especificaciones de la vía, su velocidad de diseño, las características de operación de la vía.
+                  p.mb-0 La entidad encargada de fijar la velocidad máxima y mínima, en las zonas urbanas de que trata el artículo 106 y en las carreteras nacionales y departamentales de que trata este artículo, debe establecer los límites de velocidad de forma sectorizada, razonable, apropiada y coherente con el tráfico vehicular, las condiciones del medio ambiente, la infraestructura vial, el estado de las vías, visibilidad, las especificaciones de la vía, su velocidad de diseño y las características de operación de la vía.
 
 </template>
 

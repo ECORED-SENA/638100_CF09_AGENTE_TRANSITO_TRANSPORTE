@@ -41,11 +41,11 @@
                 .tarjeta.color-primario
                   .text-white.p-4
                     p.text-center #[b Formación específica]
-                    p.text-center Su objetivo es conducir el vehículo en escenarios reales, llevando a la práctica las destrezas adquiridas en cuento a: taller de inspección preoperacional, maniobras especiales en la conducción, control de cambios, conducción en diferentes vías, aceleración y desaceleración, entre otros.
+                    p.text-center Su objetivo es conducir el vehículo en escenarios reales, llevando a la práctica las destrezas adquiridas en cuanto a: taller de inspección preoperacional, maniobras especiales en la conducción, control de cambios, conducción en diferentes vías, aceleración y desaceleración, entre otros.
           p.mb-5 Los aspectos a tratar en cuanto a adaptación al medio son:
           .tarjeta.tarjeta--gris.p-4.mb-5
             LineaTiempoC.color-acento-contenido(text-small)
-              .row.justify-content-center(titulo="Ubicación del vehículoen la vía y suscomponentes")
+              .row.justify-content-center(titulo="Ubicación del vehículo en la vía y sus componentes")
                 .col-lg-8.mb-4.mb-lg-0
                   .row
                     .col-12

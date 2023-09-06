@@ -62,7 +62,7 @@
     #t_9_1
     .titulo-segundo.color-acento-contenido
       h2 9.1. Características de llantas, carrocería, sistema eléctrico, lubricantes, correas de transmisión
-    p Es importante que dentro del proceso de aprendizaje el aprendiz conozca los sistemas que componen las unidades de transporte, para definir qué elementos va a inspeccionar de manera visual y garantizar que estén cumpliendo los requisitos para operar.
+    p Es importante que dentro del proceso de aprendizaje, el aprendiz conozca los sistemas que componen las unidades de transporte, para definir qué elementos va a inspeccionar de manera visual y garantizar que estén cumpliendo los requisitos para operar.
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
         .row.mb-3
@@ -136,7 +136,7 @@
           .row.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Sistema de frenos]
-              p Permite la reducción la fuerza de inercia de las ruedas a través de la fricción. Este sistema es muy importante en términos de seguridad, pero este proceso implica una alta transformación de energía mecánica en energía calórica, en donde la mayor parte es producida en las llantas delanteras.
+              p Permite la reducción de la fuerza de inercia de las ruedas a través de la fricción. Este sistema es muy importante en términos de seguridad, pero este proceso implica una alta transformación de energía mecánica en energía calórica, en donde la mayor parte es producida en las llantas delanteras.
               p.mb-0 Actualmente, se encuentran frenos de disco y un poco más en desuso los frenos de tambor. Las áreas de contacto son los discos, pastillas o bandas y campanas, además de la fricción generada entre el suelo y el neumático.
             .col-lg-5
               figure
@@ -156,7 +156,7 @@
           .col-12
             img(src='@/assets/curso/tema10/img15.png' alt='AvatarTop')
         p.text-center #[b Motores de gasolina]
-        p Obtienen su energía a través la reacción termoquímica de la mezcla de oxígeno y combustible.
+        p Obtienen su energía a través de la reacción termoquímica de la mezcla de oxígeno y combustible.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-12
@@ -219,7 +219,7 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema10/img22.png' alt='')
-        p.text-center #[b Circulo entre paréntesis con un signo de admiración en medio]
+        p.text-center #[b Círculo entre paréntesis con un signo de admiración en medio]
         p Este testigo es uno de los que más debe tenerse presente, es un aviso sobre la falla en el sistema de frenos o también puede mostrar que está transitando con el freno de mano puesto.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
@@ -251,7 +251,7 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema10/img29.png' alt='')
-        p.text-center #[b Circulo con líneas a los lados]
+        p.text-center #[b Círculo con líneas a los lados]
         p Este dibujo es informa al piloto sobre el desgaste de las pastillas de freno.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
@@ -263,7 +263,7 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema10/img31.png' alt='')
-        p.text-center #[b Circulo con las letras ABS en el interior]
+        p.text-center #[b Círculo con las letras ABS en el interior]
         p Anuncia un fallo en el sistema de frenos ABS.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
@@ -282,7 +282,7 @@
           .col-8
             img(src='@/assets/curso/tema10/img34.png' alt='')
         p.text-center #[b Individuo sentado con un círculo en frente]
-        p Este testigo informa sobre el fallo en o desconexión de alguna de las bolsas de aire (Air bag) del vehículo.
+        p Este testigo informa sobre el fallo en o desconexión de alguna de las bolsas de aire (#[em Airbag]) del vehículo.
     Separador
     #t_9_3
     .titulo-segundo.color-acento-contenido
@@ -336,7 +336,7 @@
           .row.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Luces traseras]
-              p.mb-0 Las luces traseras son las luces rojas en la parte trasera del vehículo que se encienden de manera sistemática cuando tus las luces delanteras están encendidas. Les permite saber a los conductores que vienen detrás que el vehículo está allí y qué tan lejos está.
+              p.mb-0 Las luces traseras son las luces rojas en la parte trasera del vehículo que se encienden de manera sistemática cuando las luces delanteras están encendidas. Les permite saber a los conductores que vienen detrás que el vehículo está allí y qué tan lejos está.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema10/img40.png', style="width: 450px" ,alt='').m-auto
@@ -402,7 +402,7 @@
       .py-4.py-md-5(titulo="Seguridad Pasiva" :icono="require('@/assets/curso/tema10/img2.svg')")
         .row.justify-content-center
           .col-lg-6.mb-4.mb-lg-0
-            p Esta tecnología reúne a todos aquellos elementos que reducen los daños al mínimo cuando es inevitable los accidentes ocurra. Entre los elementos tenemos:
+            p Esta tecnología reúne a todos aquellos elementos que reducen los daños al mínimo cuando es inevitable que los accidentes ocurran. Entre los elementos tenemos:
             ul.lista-ul--color.mb-0
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")

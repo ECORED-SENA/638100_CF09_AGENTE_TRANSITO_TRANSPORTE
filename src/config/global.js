@@ -169,11 +169,6 @@ export default {
         download: 'downloads/638100_CF09_DU.pdf',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -235,6 +230,14 @@ export default {
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=31604',
     },
+    {
+      tema: 'Conocimiento de las señales de tránsito',
+      referencia:
+        'Ministerio de Transporte. (2015). Resolución 1885 de 2015. Por la cual se adopta el Manual de Señalización Vial.',
+      tipo: 'Manual',
+      link:
+        'https://www.mintransporte.gov.co/documentos/29/manuales-de-senalizacion-vial/',
+    },
   ],
   glosario: [
     {
@@ -245,7 +248,7 @@ export default {
     {
       termino: 'Hábito',
       significado:
-        'conductas que se repiten frecuentemente hasta que forman parte de las nuestras actividades diarias.',
+        'conductas que se repiten frecuentemente hasta que forman parte de las actividades diarias.',
     },
     {
       termino: 'NTC',
@@ -264,7 +267,7 @@ export default {
     {
       termino: 'Velocidad',
       significado:
-        'magnitud física que expresa la relación entre el espacio recorrido por un objeto y el tiempo que emplea en recórrelo.',
+        'magnitud física que expresa la relación entre el espacio recorrido por un objeto y el tiempo que emplea en recorrerlo.',
     },
   ],
   referencias: [

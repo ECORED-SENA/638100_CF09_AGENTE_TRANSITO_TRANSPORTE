@@ -47,7 +47,7 @@
                 span Para estas revisiones es muy conveniente elaborar un #[i check list], basado en las fichas técnicas de los equipos y las recomendaciones de los fabricantes, para preservar la integridad de las máquinas y tener una trazabilidad de los componentes revisados e intervenidos.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
-                span Es de gran utilidad tener bases de datos que permitan llevar estos controles y avisen las fechas próximas de los mantenimientos y a que componentes.
+                span Es de gran utilidad tener bases de datos que permitan llevar estos controles y avisen las fechas próximas de los mantenimientos y a qué componentes.
               li.d-flex
                 i.fas.fa-car-side(style="color: #D40A32")
                 span La principal ventaja de este mantenimiento es que los equipos se conservan en mejores condiciones y pueden durar más tiempo operativos, bajando costos por intervenciones, pero esto también implica como desventaja realizar más inspecciones y mantenimientos menores en la vida útil del equipo.
