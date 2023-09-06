@@ -252,7 +252,7 @@
           .col-8
             img(src='@/assets/curso/tema10/img29.png' alt='')
         p.text-center #[b Círculo con líneas a los lados]
-        p Este dibujo es informa al piloto sobre el desgaste de las pastillas de freno.
+        p Este dibujo informa al piloto sobre el desgaste de las pastillas de freno.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
